@@ -1,0 +1,154 @@
+# Reading D:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab06_all_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying D:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {lab06_all.vo}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module lab06_all
+# 
+# Top level modules:
+# 	lab06_all
+# 
+# vlog -vlog01compat -work work +incdir+E:/lss/quartuss2/lab06_all/simulation/modelsim {E:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module lab06_all_vlg_tst
+# 
+# Top level modules:
+# 	lab06_all_vlg_tst
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  lab06_all_vlg_tst
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps lab06_all_vlg_tst 
+# Loading work.lab06_all_vlg_tst
+# Loading work.lab06_all
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading instances from lab06_all_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from lab06_all_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab06_all_vlg_tst File: E:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1839 ps, datain:1862 ps, 266 ps );
+#    Time: 1862 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[25][26] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1839 ps, datain:1863 ps, 266 ps );
+#    Time: 1863 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[25][16] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1857 ps, datain:1864 ps, 266 ps );
+#    Time: 1864 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[10][23] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1846 ps, datain:1870 ps, 266 ps );
+#    Time: 1870 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[10][15] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1820 ps, datain:1880 ps, 266 ps );
+#    Time: 1880 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[29][3] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1820 ps, datain:1882 ps, 266 ps );
+#    Time: 1882 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[31][3] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1868 ps, datain:1916 ps, 266 ps );
+#    Time: 1916 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[25][15] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1919 ps, 266 ps );
+#    Time: 1919 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[22][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:1862 ps, sdata:1923 ps, 266 ps );
+#    Time: 1923 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[24][15] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1923 ps, 266 ps );
+#    Time: 1923 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[30][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1835 ps, datain:1925 ps, 266 ps );
+#    Time: 1925 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[21][17] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1925 ps, 266 ps );
+#    Time: 1925 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[23][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1926 ps, 266 ps );
+#    Time: 1926 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[25][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1931 ps, 266 ps );
+#    Time: 1931 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[21][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1931 ps, 266 ps );
+#    Time: 1931 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[29][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1932 ps, 266 ps );
+#    Time: 1932 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[27][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1850 ps, datain:1932 ps, 266 ps );
+#    Time: 1932 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[17][24] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1828 ps, datain:1937 ps, 266 ps );
+#    Time: 1937 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[16][22] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1852 ps, datain:1957 ps, 266 ps );
+#    Time: 1957 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[23][1] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1852 ps, datain:1960 ps, 266 ps );
+#    Time: 1960 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[31][1] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:1849 ps, sdata:1962 ps, 266 ps );
+#    Time: 1962 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[22][15] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1852 ps, datain:1967 ps, 266 ps );
+#    Time: 1967 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[23][0] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1821 ps, datain:1976 ps, 266 ps );
+#    Time: 1976 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[16][27] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1821 ps, datain:1977 ps, 266 ps );
+#    Time: 1977 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[24][27] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1821 ps, datain:1979 ps, 266 ps );
+#    Time: 1979 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[20][27] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1821 ps, datain:1980 ps, 266 ps );
+#    Time: 1980 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[28][27] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1851 ps, datain:2002 ps, 266 ps );
+#    Time: 2002 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[25][22] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1828 ps, datain:2037 ps, 266 ps );
+#    Time: 2037 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[26][22] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1828 ps, datain:2037 ps, 266 ps );
+#    Time: 2037 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[30][22] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1828 ps, datain:2038 ps, 266 ps );
+#    Time: 2038 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[22][22] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1828 ps, datain:2040 ps, 266 ps );
+#    Time: 2040 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[24][22] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1828 ps, datain:2042 ps, 266 ps );
+#    Time: 2042 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[18][22] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1805 ps, datain:2045 ps, 266 ps );
+#    Time: 2045 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[24][19] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1805 ps, datain:2047 ps, 266 ps );
+#    Time: 2047 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[30][19] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1805 ps, datain:2049 ps, 266 ps );
+#    Time: 2049 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[20][19] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1835 ps, datain:2050 ps, 266 ps );
+#    Time: 2050 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[18][26] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1805 ps, datain:2051 ps, 266 ps );
+#    Time: 2051 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[28][19] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1805 ps, datain:2052 ps, 266 ps );
+#    Time: 2052 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[16][19] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1805 ps, datain:2052 ps, 266 ps );
+#    Time: 2052 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[26][19] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1835 ps, datain:2055 ps, 266 ps );
+#    Time: 2055 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[30][26] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1835 ps, datain:2055 ps, 266 ps );
+#    Time: 2055 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[22][26] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1834 ps, datain:2077 ps, 266 ps );
+#    Time: 2077 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[23][26] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1834 ps, datain:2080 ps, 266 ps );
+#    Time: 2080 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[19][26] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1834 ps, datain:2082 ps, 266 ps );
+#    Time: 2082 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[23][27] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1844 ps, datain:2086 ps, 266 ps );
+#    Time: 2086 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[18][16] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1854 ps, datain:2089 ps, 266 ps );
+#    Time: 2089 ps  Iteration: 1  Instance: /lab06_all_vlg_tst/i1/\u4|regi[27][28] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:1844 ps, datain:2090 ps, 266 ps );
+#    Time: 2090 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u4|regi[30][16] 
+# ** Error: D:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(480): $hold( posedge clk &&& reset:1939 ps, d:2109 ps, 234 ps );
+#    Time: 2109 ps  Iteration: 0  Instance: /lab06_all_vlg_tst/i1/\u2|mem_rtl_0|auto_generated|ram_block1a18 /addr_a_register
+# Break in Module lab06_all_vlg_tst at E:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt line 140
+# Simulation Breakpoint: Break in Module lab06_all_vlg_tst at E:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt line 140
+# MACRO ./lab06_all_run_msim_gate_verilog.do PAUSED at line 17

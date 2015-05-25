@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab06_all">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab06_all|Mem:u2|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_s761.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

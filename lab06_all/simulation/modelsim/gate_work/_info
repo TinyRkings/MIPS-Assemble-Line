@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\lss\quartuss2\lab06_all\simulation\modelsim
+vlab06_all
+IlMniN;KNm^7h_Ba_QSHN]1
+VG6_L;=96oF10I>7Z8nZOX2
+Z1 dE:\lss\quartuss2\lab06_all\simulation\modelsim
+w1403359740
+8lab06_all.vo
+Flab06_all.vo
+L0 31
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!s100 ENfiaobGD<21E7HQX7jOO0
+!s85 0
+!s108 1403360191.307000
+!s107 lab06_all.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|lab06_all.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vlab06_all_vlg_tst
+!s100 `b2FIFk]MMdbhW5>zK7Nm0
+I^U3W@gbDMD2Z7Ji=SVNRZ2
+V9_2`Hnf5ZPLYz;1[cSLXO1
+R1
+w1403076712
+8E:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt
+FE:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1403360197.080000
+!s107 E:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/lss/quartuss2/lab06_all/simulation/modelsim|E:/lss/quartuss2/lab06_all/simulation/modelsim/lab06_all.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+E:/lss/quartuss2/lab06_all/simulation/modelsim -O0
