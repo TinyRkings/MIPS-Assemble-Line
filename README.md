@@ -24,6 +24,8 @@ construction 18： lwl  rt, offset(base)
 construction 19： lw  rt,offset(base)  
 construction 20： sw  rt, offset(rs)  
 construction 21： swr  rt, offset(rs)  
+##the code to realize  
+all codes are aggregated in lab06_all/lab06_all.v  
 ##device  
 computer with quartus II and Modelism
 ##help  
